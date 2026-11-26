@@ -1,0 +1,158 @@
+{
+  "locale": "de-DE",
+  "html_lang": "de",
+  "label": "Deutsch",
+  "app": "Pomodoro",
+  "nav": {
+    "help": "Hilfe",
+    "privacy": "Datenschutz",
+    "languages": "Weitere Sprachen"
+  },
+  "suggest": "Diese Seite gibt es auch auf Deutsch",
+  "contact": {
+    "h": "Kontakt",
+    "p": "Fragen, ein Fehler oder eine Idee: Schreib an {email}. Hilfreich ist die Angabe von Gerät und iOS-Version."
+  },
+  "help": {
+    "title": "Pomodoro Hilfe",
+    "lede": "Pomodoro ist ein Lern-Timer, der auf eine Prüfung hin herunterzählt. Du gibst einem Fach den Prüfungstag und die nötigen Stunden, und die App zeigt dir jeden Tag, wie viele Runden heute anstehen. Diese Seite erklärt, wie das auf iPhone und iPad funktioniert.",
+    "sections": [
+      {
+        "h": "Eine Prüfung planen",
+        "p": [
+          "Auf dem Timer-Bildschirm fragt das Tagesblatt: <b>Lernen Sie für eine Prüfung?</b> Tippe auf <b>Prüfung planen</b>. Derselbe Eintrag steht auch ganz unten im Fächermenü über dem Zifferblatt.",
+          "Wähle ein Fach oder tippe ein neues ein, lege den <b>Prüfungstag</b> fest (frühestens morgen) und stelle <b>Lernzeit bis zur Prüfung</b> ein, von 1 bis 300 Stunden. Unter <b>Pro Tag</b> zeigt der Planer, was das für einen einzelnen Tag bedeutet, in Minuten und in Runden deiner Fokusdauer.",
+          "Tippe auf <b>Sichern</b>. Das Tagesblatt führt das Fach jetzt auf, mit einem leeren Kästchen für jede Runde, die heute noch ansteht. Jede abgeschlossene Runde füllt ein Kästchen."
+        ]
+      },
+      {
+        "h": "Wie sich die Stunden auf die Tage verteilen",
+        "p": [
+          "Der Anteil für heute wird zu Tagesbeginn berechnet und bleibt bis Mitternacht gleich: Lernen füllt ihn auf, er schrumpft nicht, während du lernst.",
+          "Ein Tag, der zu kurz kommt, geht nicht verloren. Die fehlende Zeit verteilt sich auf die Tage, die bis zur Prüfung noch bleiben. Ein Tag, an dem du mehr als deinen Anteil lernst, wirkt umgekehrt: Die Tage danach verlangen weniger.",
+          "Gezählt wird ab dem Tag, an dem der Plan beginnt. Wenn du nur die Stunden änderst, bleibt das bereits Gelernte erhalten; ein neuer Prüfungstag startet die Zählung ab heute neu.",
+          "Am Prüfungstag ist der Plan zu Ende, und das Fach verschwindet aus dem Plan für heute. Die Minuten bleiben in der Statistik.",
+          "Für ein Fach ohne Prüfung gibt es stattdessen einen Wochenplan: <b>Einstellungen › Fächer</b>, das Fach öffnen und <b>Woche planen</b> einschalten. Was in der Woche noch fehlt, wird auf die übrigen Tage der Woche verteilt.",
+          "<b>Als Nächstes</b> nennt das geplante Fach, für das heute noch am meisten Zeit übrig ist. Mit <b>Wählen</b> legst du es auf das Zifferblatt."
+        ]
+      },
+      {
+        "h": "Das Zifferblatt und die Runden",
+        "p": [
+          "Zieh den Griff am Rand des roten Keils um das Zifferblatt, um die Fokusdauer einzustellen: 5 bis 60 Minuten in Fünferschritten. Unter <b>Einstellungen › Dauer</b> sind bis zu 120 Minuten möglich; dort stellst du auch die Pausen ein und wie viele Runden vor einer langen Pause kommen. Zwei Vorgaben stehen bereit: 25 · 5 · 15 und 50 · 10 · 20.",
+          "<b>Start</b> beginnt eine Fokusrunde. Danach folgt eine kurze Pause und nach jeder vierten Runde eine lange, sofern du das nicht änderst. <b>Pausen automatisch starten</b> lässt sich in den Einstellungen ausschalten.",
+          "Mit dem Häkchen neben <b>Pausieren</b> beendest du eine Runde vorzeitig; eine Runde von mindestens einer Minute bleibt erhalten. Der runde Pfeil setzt die Runde zurück.",
+          "Zum freien Lernen wähle oben auf dem Bildschirm <b>Stoppuhr</b>. Sie zählt hoch, bis du fertig bist."
+        ]
+      },
+      {
+        "h": "Statistik",
+        "p": [
+          "Die Taste oben rechts öffnet die <b>Statistik</b>: diese Woche nach Fächern, ein Quadrat für je 25 Minuten, und die Liste der Sitzungen. Auf dem iPad liegt die Woche außerdem neben dem Zifferblatt.",
+          "Mit <b>Sitzung von Hand eintragen</b> hältst du Lernen fest, das ohne Timer stattfand. Tippe auf eine Sitzung, um Fach, Startzeit oder Dauer zu ändern oder sie zu entfernen; mit <b>Widerrufen</b> holst du eine entfernte Sitzung zurück.",
+          "Das Tagesblatt zeigt die Summe von heute und deine Tagesserie, also die Zahl der Tage in Folge mit Lernen."
+        ]
+      },
+      {
+        "h": "Auf dem Sperrbildschirm",
+        "p": [
+          "Eine laufende Runde erscheint auf dem Sperrbildschirm und, bei iPhones mit Dynamic Island, dort. Ihre Taste hält die Runde an oder setzt sie fort. Unter <b>Einstellungen › Timer auf dem Sperrbildschirm</b> schaltest du das aus.",
+          "Beim ersten Start eines Timers fragt iOS, ob Pomodoro Mitteilungen senden darf. Das sind die Glocke am Ende einer Runde und am Ende der Pause danach. Wenn du Nein sagst, läutet die Glocke nur, solange die App geöffnet ist."
+        ]
+      }
+    ],
+    "faq_h": "Fragen",
+    "faq": [
+      {
+        "q": "Sperrt Pomodoro andere Apps?",
+        "a": "Nein. Während einer Fokusrunde zählt die App, wie oft du sie verlässt, und jedes Mal wird daraus ein kurzer Strich über dem Kästchen dieser Runde. Sie sperrt, blockiert und versteckt nichts und liest keine Nutzungsdaten."
+      },
+      {
+        "q": "Läuft der Timer weiter, wenn ich die App schließe?",
+        "a": "Ja. Die Zeit wird vom Beginn der Runde an berechnet und stimmt deshalb, wenn du zurückkommst."
+      },
+      {
+        "q": "Die Glocke hat nicht geläutet",
+        "a": "Die Glocke ist eine Mitteilung. Wenn Mitteilungen für Pomodoro ausgeschaltet sind, sagt dir das der Timer-Bildschirm und bietet <b>Mitteilungen in den Einstellungen aktivieren</b> an. Der Ton folgt dem Stumm-Schalter; unter <b>Einstellungen › Glocke am Ende</b> schaltest du den Ton aus."
+      },
+      {
+        "q": "Was ist kostenlos, und was bringt Pro dazu?",
+        "a": "Kostenlos: der Timer und die Stoppuhr, alle Dauern, die Glocke, der Timer auf dem Sperrbildschirm, drei Fächer mit ihren Prüfungsplänen und Wochenplänen, das Tagesblatt, diese und die letzte Woche sowie das Eintragen, Korrigieren und Entfernen von Sitzungen. Pomodoro Pro ist ein einmaliger In-App-Kauf, kein Abo. Es bringt unbegrenzt viele Fächer, ein Tagesziel, jede frühere Woche, 30 Tage und 12 Monate, die Zeit nach Fach und eine Tabelle (CSV) mit allen Sitzungen."
+      },
+      {
+        "q": "Ich habe Pro gekauft, aber es ist auf diesem Gerät gesperrt",
+        "a": "Öffne die Einstellungen (oben links auf dem Timer-Bildschirm) und tippe auf <b>Kauf wiederherstellen</b>, angemeldet mit der Apple-ID, mit der du gekauft hast. Dieselbe Taste gibt es im Fenster von Pomodoro Pro."
+      },
+      {
+        "q": "Kann ich mein Geld zurückbekommen?",
+        "a": "Rückerstattungen übernimmt Apple unter <a href=\"https://reportaproblem.apple.com\">reportaproblem.apple.com</a>."
+      },
+      {
+        "q": "Wie ändere ich die Sprache?",
+        "a": "<b>Einstellungen › Sprache</b> öffnet die iOS-Einstellungen für Pomodoro, wo du die Sprache der App wählen kannst."
+      },
+      {
+        "q": "Wie lösche ich alles?",
+        "a": "<b>Einstellungen › Alle Daten löschen</b> entfernt alle Sitzungen und Fächer von diesem Gerät. Das Löschen der App bewirkt dasselbe."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Pomodoro Datenschutzerklärung",
+    "updated": "Zuletzt aktualisiert am 26. November 2026",
+    "lede": "Pomodoro sammelt keine Daten. Es gibt kein Konto, keine Werbung, keine Analyse und kein Tracking.",
+    "sections": [
+      {
+        "h": "Was auf deinem Gerät bleibt",
+        "p": [
+          "Deine Fächer, Pläne, Prüfungstage, Sitzungen und Einstellungen liegen in einer Datei im eigenen Speicher der App auf deinem iPhone oder iPad. Ein paar kleine Einstellungen, etwa ob Pro gekauft wurde, liegen im Einstellungsspeicher der App. Nichts davon wird an den Entwickler oder an irgendjemand anderen gesendet.",
+          "Wie andere App-Daten gehört diese Datei zum Backup deines Geräts, wenn du das Gerät sicherst."
+        ]
+      },
+      {
+        "h": "Die einzige Verbindung",
+        "p": [
+          "Die einzige Verbindung der App geht zum App Store von Apple (StoreKit): um den Preis von Pomodoro Pro anzuzeigen, es zu kaufen und wiederherzustellen. Apple wickelt die Zahlung ab; der Entwickler erhält keine Zahlungsdaten.",
+          "Hin und wieder zeigt iOS womöglich Apples eigene Aufforderung, die App zu bewerten. Sie kommt von iOS, und die App erfährt nichts über deine Antwort."
+        ]
+      },
+      {
+        "h": "Mitteilungen und Sperrbildschirm",
+        "p": [
+          "Die Glocken sind lokale Mitteilungen, die beim Start eines Timers auf dem Gerät eingerichtet werden. Kein Server sendet sie.",
+          "Der Timer auf dem Sperrbildschirm und in der Dynamic Island wird von der App auf dem Gerät aktualisiert. Er verwendet kein Push-Token."
+        ]
+      },
+      {
+        "h": "Zeit außerhalb der App zählen",
+        "p": [
+          "Während einer Fokusrunde zählt die App, wie oft sie in den Hintergrund geschickt wurde. Mehr weiß sie nicht: Sie sieht nicht, welche App du geöffnet hast, liest keine Nutzungsdaten und verwendet weder Bildschirmzeit noch Family Controls."
+        ]
+      },
+      {
+        "h": "Tabellen-Export",
+        "p": [
+          "Mit Pro kann die Statistik deine Sitzungen als CSV-Datei teilen. Du bestimmst, wohin sie geht; die App sendet von sich aus nichts."
+        ]
+      },
+      {
+        "h": "Kinder",
+        "p": [
+          "Pomodoro sammelt von niemandem etwas, auch nicht von Kindern."
+        ]
+      },
+      {
+        "h": "Deine Daten löschen",
+        "p": [
+          "<b>Einstellungen › Alle Daten löschen</b> entfernt alle Sitzungen und Fächer. Das Löschen der App entfernt alles, was sie gespeichert hat."
+        ]
+      },
+      {
+        "h": "Änderungen",
+        "p": [
+          "Wenn sich diese Erklärung ändert, steht der neue Text mit neuem Datum auf dieser Seite."
+        ]
+      }
+    ]
+  }
+}

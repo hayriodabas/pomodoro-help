@@ -1,0 +1,158 @@
+{
+  "locale": "pt-BR",
+  "html_lang": "pt-BR",
+  "label": "Português (Brasil)",
+  "app": "Pomodoro",
+  "nav": {
+    "help": "Ajuda",
+    "privacy": "Privacidade",
+    "languages": "Outros idiomas"
+  },
+  "suggest": "Esta página também está em português",
+  "contact": {
+    "h": "Contato",
+    "p": "Dúvida, erro ou ideia: escreva para {email}. Informar seu aparelho e a versão do iOS ajuda."
+  },
+  "help": {
+    "title": "Ajuda do Pomodoro",
+    "lede": "O Pomodoro é um timer de estudo que faz a contagem regressiva até uma prova. Você dá a uma matéria o dia da prova e as horas necessárias, e todo dia o app mostra quantas rodadas são para hoje. Esta página explica como ele funciona no iPhone e no iPad.",
+    "sections": [
+      {
+        "h": "Planejar uma prova",
+        "p": [
+          "Na tela do timer, a folha de hoje pergunta: <b>Estudando para uma prova?</b> Toque em <b>Planejar uma prova</b>. O mesmo item fica no fim do menu de matérias, acima do mostrador.",
+          "Escolha uma matéria ou digite uma nova, selecione o <b>Dia da prova</b> (amanhã, no mínimo) e ajuste <b>Estudo antes da prova</b>, de 1 a 300 horas. Em <b>Por dia</b>, o planejador mostra o que isso pede de um único dia, em minutos e em rodadas da sua duração de foco.",
+          "Toque em <b>Salvar</b>. A folha de hoje passa a listar a matéria, com uma caixa vazia para cada rodada que ainda falta hoje. Cada rodada concluída preenche uma caixa."
+        ]
+      },
+      {
+        "h": "Como os dias dividem as horas",
+        "p": [
+          "A parte de hoje é calculada quando o dia começa e fica fixa até a meia-noite: estudar vai preenchendo, ela não diminui conforme você avança.",
+          "Um dia que fica devendo não se perde. O tempo que faltou é distribuído pelos dias que restam antes da prova. Um dia em que você estuda além da sua parte funciona ao contrário: os dias seguintes pedem menos.",
+          "O estudo conta a partir do dia em que o plano começa. Se você muda só as horas, o que já estudou é mantido; um novo dia de prova reinicia a contagem a partir de hoje.",
+          "No dia da prova o plano termina e a matéria sai do plano de hoje. Os minutos dela continuam em Estatísticas.",
+          "Uma matéria sem prova pode ter um plano semanal no lugar: <b>Ajustes › Matérias</b>, abra a matéria e ative <b>Planejar a semana</b>. O que ainda falta na semana é distribuído pelos dias que restam da semana.",
+          "<b>A seguir</b> indica a matéria planejada com mais tempo restante hoje. <b>Escolher</b> coloca essa matéria no mostrador."
+        ]
+      },
+      {
+        "h": "O mostrador e as rodadas",
+        "p": [
+          "Arraste a alça na borda da cunha vermelha em volta do mostrador para definir a duração de foco: de 5 a 60 minutos, de cinco em cinco. <b>Ajustes › Durações</b> permite até 120 minutos e define as pausas e quantas rodadas vêm antes de uma pausa longa. Há duas predefinições: 25 · 5 · 15 e 50 · 10 · 20.",
+          "<b>Iniciar</b> começa uma rodada de foco. Segue-se uma pausa curta e, depois de cada quarta rodada, uma pausa longa, a menos que você mude isso. <b>Iniciar pausas automaticamente</b> pode ser desativado nos Ajustes.",
+          "O visto ao lado de <b>Pausar</b> encerra uma rodada antes do fim; uma rodada de um minuto ou mais é mantida. A seta circular reinicia a rodada.",
+          "Para estudar sem tempo definido, escolha <b>Cronômetro</b> no alto da tela. Ele conta para cima até você terminar."
+        ]
+      },
+      {
+        "h": "Estatísticas",
+        "p": [
+          "O botão no canto superior direito abre as <b>Estatísticas</b>: esta semana por matéria, um quadrado para cada 25 minutos e a lista de sessões. No iPad, a semana também aparece ao lado do mostrador.",
+          "<b>Adicionar uma sessão à mão</b> registra o estudo feito sem o timer. Toque em uma sessão para mudar a matéria, o horário de início ou a duração, ou para removê-la; <b>Desfazer</b> traz de volta uma sessão removida.",
+          "A folha de hoje mostra o total de hoje e a sua sequência de dias, o número de dias seguidos com estudo."
+        ]
+      },
+      {
+        "h": "Na Tela Bloqueada",
+        "p": [
+          "Uma rodada em andamento aparece na Tela Bloqueada e, nos iPhones que têm, na Dynamic Island. O botão dela pausa a rodada ou a retoma. <b>Ajustes › Timer na Tela Bloqueada</b> desativa isso.",
+          "Na primeira vez que um timer começa, o iOS pergunta se o Pomodoro pode enviar notificações. São o sino no fim de uma rodada e no fim da pausa que vem depois. Se você disser não, o sino toca apenas com o app aberto."
+        ]
+      }
+    ],
+    "faq_h": "Perguntas",
+    "faq": [
+      {
+        "q": "O Pomodoro bloqueia outros apps?",
+        "a": "Não. Durante uma rodada de foco, ele conta quantas vezes você sai do app, e cada saída vira um traço curto sobre a caixa dessa rodada. Ele não bloqueia, não trava e não esconde nada, e não lê nenhum dado de uso."
+      },
+      {
+        "q": "O timer continua se eu fechar o app?",
+        "a": "Sim. O tempo é calculado a partir do início da rodada, então está certo quando você volta."
+      },
+      {
+        "q": "O sino não tocou",
+        "a": "O sino é uma notificação. Se as notificações estiverem desativadas para o Pomodoro, a tela do timer avisa e oferece <b>Ativar notificações nos Ajustes</b>. O som segue o interruptor de silêncio; <b>Ajustes › Sino ao terminar</b> desativa o som."
+      },
+      {
+        "q": "O que é grátis e o que o Pro acrescenta?",
+        "a": "Grátis: o timer e o cronômetro, todas as durações, o sino, o timer na Tela Bloqueada, três matérias com seus planos de prova e planos semanais, a folha de hoje, esta semana e a semana passada, e registrar, corrigir e remover sessões. O Pomodoro Pro é uma única compra dentro do app, não uma assinatura. Ele acrescenta matérias ilimitadas, uma meta diária, todas as semanas anteriores, 30 dias e 12 meses, o tempo por matéria e uma planilha (CSV) com todas as sessões."
+      },
+      {
+        "q": "Comprei o Pro, mas ele está bloqueado neste aparelho",
+        "a": "Abra os Ajustes (no canto superior esquerdo da tela do timer) e toque em <b>Restaurar compra</b>, conectado com a Conta Apple com a qual você comprou. A folha do Pomodoro Pro tem o mesmo botão."
+      },
+      {
+        "q": "Posso pedir reembolso?",
+        "a": "Os reembolsos são tratados pela Apple em <a href=\"https://reportaproblem.apple.com\">reportaproblem.apple.com</a>."
+      },
+      {
+        "q": "Como mudo o idioma?",
+        "a": "<b>Ajustes › Idioma</b> abre os ajustes do iOS para o Pomodoro, onde dá para escolher o idioma do app."
+      },
+      {
+        "q": "Como apago tudo?",
+        "a": "<b>Ajustes › Apagar todos os dados</b> remove todas as sessões e matérias deste aparelho. Excluir o app tem o mesmo efeito."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Política de privacidade do Pomodoro",
+    "updated": "Última atualização: 26 de novembro de 2026",
+    "lede": "O Pomodoro não coleta dados. Não há conta, publicidade, análise de uso nem rastreamento.",
+    "sections": [
+      {
+        "h": "O que fica no seu aparelho",
+        "p": [
+          "Suas matérias, planos, dias de prova, sessões e ajustes ficam em um único arquivo, no armazenamento do próprio app no seu iPhone ou iPad. Algumas preferências pequenas, como se o Pro foi comprado, ficam no armazenamento de ajustes do app. Nada disso é enviado ao desenvolvedor nem a ninguém.",
+          "Como os outros dados de apps, esse arquivo faz parte do backup do seu aparelho, se você fizer backup."
+        ]
+      },
+      {
+        "h": "A única conexão",
+        "p": [
+          "A única conexão que o app faz é com a App Store da Apple (StoreKit): para mostrar o preço do Pomodoro Pro, comprá-lo e restaurá-lo. A Apple cuida do pagamento; o desenvolvedor não recebe nenhum dado de pagamento.",
+          "De vez em quando o iOS pode mostrar o pedido de avaliação da própria Apple. Ele vem do iOS, e o app não fica sabendo da sua resposta."
+        ]
+      },
+      {
+        "h": "Notificações e Tela Bloqueada",
+        "p": [
+          "Os sinos são notificações locais, programadas no aparelho quando um timer começa. Nenhum servidor as envia.",
+          "O timer na Tela Bloqueada e na Dynamic Island é atualizado pelo app no aparelho. Ele não usa nenhum token de push."
+        ]
+      },
+      {
+        "h": "Contar o tempo fora do app",
+        "p": [
+          "Durante uma rodada de foco, o app conta quantas vezes foi enviado para segundo plano. É só isso que ele sabe: não vê qual app você abriu, não lê dados de uso e não usa nem Tempo de Uso nem Family Controls."
+        ]
+      },
+      {
+        "h": "Exportação para planilha",
+        "p": [
+          "Com o Pro, as Estatísticas podem compartilhar suas sessões como um arquivo CSV. Você escolhe para onde ele vai; o app não envia nada por conta própria."
+        ]
+      },
+      {
+        "h": "Crianças",
+        "p": [
+          "O Pomodoro não coleta nada de ninguém, crianças inclusive."
+        ]
+      },
+      {
+        "h": "Apagar seus dados",
+        "p": [
+          "<b>Ajustes › Apagar todos os dados</b> remove todas as sessões e matérias. Excluir o app remove tudo o que ele guardou."
+        ]
+      },
+      {
+        "h": "Alterações",
+        "p": [
+          "Se esta política mudar, o novo texto será publicado nesta página com uma nova data."
+        ]
+      }
+    ]
+  }
+}

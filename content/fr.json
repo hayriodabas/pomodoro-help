@@ -1,0 +1,158 @@
+{
+  "locale": "fr-FR",
+  "html_lang": "fr",
+  "label": "Français",
+  "app": "Pomodoro",
+  "nav": {
+    "help": "Aide",
+    "privacy": "Confidentialité",
+    "languages": "Autres langues"
+  },
+  "suggest": "Cette page existe aussi en français",
+  "contact": {
+    "h": "Contact",
+    "p": "Une question, un bug ou une idée : écrivez à {email}. Précisez votre appareil et votre version d’iOS, cela nous aide."
+  },
+  "help": {
+    "title": "Aide de Pomodoro",
+    "lede": "Pomodoro est un minuteur d’étude qui décompte jusqu’à un examen. Vous donnez à une matière le jour de l’examen et les heures nécessaires, et l’app vous montre chaque jour combien de tours sont à faire aujourd’hui. Cette page explique comment cela fonctionne sur iPhone et iPad.",
+    "sections": [
+      {
+        "h": "Planifier un examen",
+        "p": [
+          "Sur l’écran du minuteur, la feuille du jour demande : <b>Vous préparez un examen ?</b> Touchez <b>Planifier un examen</b>. La même entrée se trouve tout en bas du menu des matières, au-dessus du cadran.",
+          "Choisissez une matière ou saisissez-en une nouvelle, fixez le <b>Jour de l’examen</b> (demain au plus tôt) et réglez <b>Travail avant l’examen</b>, de 1 à 300 heures. Sous <b>Chaque jour</b>, le planificateur montre ce que cela demande pour une seule journée, en minutes et en tours de votre durée de concentration.",
+          "Touchez <b>Enregistrer</b>. La feuille du jour affiche alors la matière, avec une case vide pour chaque tour restant à faire aujourd’hui. Chaque tour terminé remplit une case."
+        ]
+      },
+      {
+        "h": "Comment les jours se partagent les heures",
+        "p": [
+          "La part du jour est calculée au début de la journée et reste fixe jusqu’à minuit : le travail la remplit, elle ne diminue pas à mesure que vous étudiez.",
+          "Un jour en retard n’est pas perdu. Le temps manquant est réparti sur les jours qui restent avant l’examen. Un jour où vous travaillez au-delà de sa part joue dans l’autre sens : les jours suivants demandent moins.",
+          "Le travail compte à partir du jour où le plan commence. Si vous ne changez que les heures, ce que vous avez déjà étudié est conservé ; un nouveau jour d’examen recommence le décompte à partir d’aujourd’hui.",
+          "Le jour de l’examen, le plan est terminé et la matière quitte le plan du jour. Ses minutes restent dans les Statistiques.",
+          "Une matière sans examen peut avoir un plan hebdomadaire à la place : <b>Réglages › Matières</b>, ouvrez la matière et activez <b>Planifier la semaine</b>. Ce qui manque encore à la semaine est réparti sur les jours restants de la semaine.",
+          "<b>Ensuite</b> désigne la matière planifiée qui a le plus de temps restant aujourd’hui. <b>Choisir</b> la place sur le cadran."
+        ]
+      },
+      {
+        "h": "Le cadran et les tours",
+        "p": [
+          "Faites glisser la poignée au bord du secteur rouge autour du cadran pour régler la durée de concentration : de 5 à 60 minutes, par pas de cinq. <b>Réglages › Durées</b> permet d’aller jusqu’à 120 minutes et règle les pauses ainsi que le nombre de tours avant une longue pause. Deux préréglages y figurent : 25 · 5 · 15 et 50 · 10 · 20.",
+          "<b>Démarrer</b> lance un tour de concentration. Une courte pause suit, puis une longue pause après chaque quatrième tour, sauf si vous le modifiez. <b>Lancer les pauses automatiquement</b> peut être désactivé dans les Réglages.",
+          "La coche à côté de <b>Pause</b> termine un tour plus tôt ; un tour d’une minute ou plus est conservé. La flèche circulaire remet le tour à zéro.",
+          "Pour étudier sans durée fixe, choisissez <b>Chronomètre</b> en haut de l’écran. Il compte vers le haut jusqu’à ce que vous ayez fini."
+        ]
+      },
+      {
+        "h": "Statistiques",
+        "p": [
+          "Le bouton en haut à droite ouvre les <b>Statistiques</b> : la semaine par matière, un carré pour chaque tranche de 25 minutes, et la liste des sessions. Sur iPad, la semaine s’affiche aussi à côté du cadran.",
+          "<b>Ajouter une session à la main</b> enregistre un travail fait sans le minuteur. Touchez une session pour modifier sa matière, son heure de début ou sa durée, ou pour la supprimer ; <b>Annuler</b> rétablit une session supprimée.",
+          "La feuille du jour affiche le total du jour et votre série de jours, le nombre de jours d’affilée avec du travail."
+        ]
+      },
+      {
+        "h": "Sur l’écran verrouillé",
+        "p": [
+          "Un tour en cours s’affiche sur l’écran verrouillé et, sur les iPhone qui en ont une, dans la Dynamic Island. Son bouton met le tour en pause ou le reprend. <b>Réglages › Minuteur sur l’écran verrouillé</b> désactive cet affichage.",
+          "La première fois qu’un minuteur démarre, iOS demande si Pomodoro peut envoyer des notifications. Ce sont la sonnerie à la fin d’un tour et à la fin de la pause qui suit. Si vous refusez, la sonnerie ne retentit que lorsque l’app est ouverte."
+        ]
+      }
+    ],
+    "faq_h": "Questions",
+    "faq": [
+      {
+        "q": "Pomodoro bloque-t-il d’autres apps ?",
+        "a": "Non. Pendant un tour de concentration, l’app compte combien de fois vous la quittez, et chaque fois devient un court trait sur la case de ce tour. Elle ne bloque, ne verrouille et ne masque rien, et ne lit aucune donnée d’utilisation."
+      },
+      {
+        "q": "Le minuteur continue-t-il si je ferme l’app ?",
+        "a": "Oui. Le temps est calculé à partir du début du tour, il est donc exact à votre retour."
+      },
+      {
+        "q": "La sonnerie n’a pas retenti",
+        "a": "La sonnerie est une notification. Si les notifications sont désactivées pour Pomodoro, l’écran du minuteur l’indique et propose <b>Activer les notifications dans Réglages</b>. Le son suit le commutateur de sonnerie ; <b>Réglages › Sonnerie à la fin</b> coupe le son."
+      },
+      {
+        "q": "Qu’est-ce qui est gratuit, et qu’ajoute Pro ?",
+        "a": "Gratuit : le minuteur et le chronomètre, toutes les durées, la sonnerie, le minuteur sur l’écran verrouillé, trois matières avec leurs plans d’examen et leurs plans hebdomadaires, la feuille du jour, cette semaine et la semaine dernière, ainsi que l’ajout, la correction et la suppression de sessions. Pomodoro Pro est un achat unique dans l’app, pas un abonnement. Il ajoute un nombre illimité de matières, un objectif quotidien, toutes les semaines précédentes, 30 jours et 12 mois, le temps par matière et un tableur (CSV) de toutes les sessions."
+      },
+      {
+        "q": "J’ai acheté Pro, mais il est verrouillé sur cet appareil",
+        "a": "Ouvrez les Réglages (en haut à gauche de l’écran du minuteur) et touchez <b>Restaurer l’achat</b>, connecté avec le compte Apple utilisé pour l’achat. La feuille de Pomodoro Pro a le même bouton."
+      },
+      {
+        "q": "Puis-je être remboursé ?",
+        "a": "Les remboursements sont gérés par Apple sur <a href=\"https://reportaproblem.apple.com\">reportaproblem.apple.com</a>."
+      },
+      {
+        "q": "Comment changer de langue ?",
+        "a": "<b>Réglages › Langue</b> ouvre les réglages iOS de Pomodoro, où l’on peut choisir la langue de l’app."
+      },
+      {
+        "q": "Comment tout supprimer ?",
+        "a": "<b>Réglages › Supprimer les données</b> efface toutes les sessions et toutes les matières de cet appareil. Supprimer l’app produit le même effet."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Politique de confidentialité de Pomodoro",
+    "updated": "Dernière mise à jour : 26 novembre 2026",
+    "lede": "Pomodoro ne collecte aucune donnée. Il n’y a ni compte, ni publicité, ni outil d’analyse, ni suivi.",
+    "sections": [
+      {
+        "h": "Ce qui reste sur votre appareil",
+        "p": [
+          "Vos matières, plans, jours d’examen, sessions et réglages sont conservés dans un seul fichier, dans l’espace de stockage propre à l’app sur votre iPhone ou iPad. Quelques petites préférences, comme le fait que Pro ait été acheté, se trouvent dans le stockage des réglages de l’app. Rien de tout cela n’est envoyé au développeur ni à personne d’autre.",
+          "Comme les autres données d’app, ce fichier fait partie de la sauvegarde de votre appareil si vous le sauvegardez."
+        ]
+      },
+      {
+        "h": "La seule connexion",
+        "p": [
+          "La seule connexion que l’app établit est celle vers l’App Store d’Apple (StoreKit) : pour afficher le prix de Pomodoro Pro, l’acheter et le restaurer. Apple gère le paiement ; le développeur ne reçoit aucune information de paiement.",
+          "De temps à autre, iOS peut afficher la demande d’évaluation propre à Apple. Elle vient d’iOS, et l’app ne sait rien de votre réponse."
+        ]
+      },
+      {
+        "h": "Notifications et écran verrouillé",
+        "p": [
+          "Les sonneries sont des notifications locales, programmées sur l’appareil au démarrage d’un minuteur. Aucun serveur ne les envoie.",
+          "Le minuteur sur l’écran verrouillé et dans la Dynamic Island est mis à jour par l’app, sur l’appareil. Il n’utilise aucun jeton push."
+        ]
+      },
+      {
+        "h": "Compter le temps passé ailleurs",
+        "p": [
+          "Pendant un tour de concentration, l’app compte combien de fois elle a été envoyée en arrière-plan. C’est tout ce qu’elle sait : elle ne voit pas quelle app vous avez ouverte, ne lit aucune donnée d’utilisation et n’utilise ni Temps d’écran ni Family Controls."
+        ]
+      },
+      {
+        "h": "Export vers un tableur",
+        "p": [
+          "Avec Pro, les Statistiques peuvent partager vos sessions sous forme de fichier CSV. Vous choisissez où il va ; l’app n’envoie rien d’elle-même."
+        ]
+      },
+      {
+        "h": "Enfants",
+        "p": [
+          "Pomodoro ne collecte rien auprès de personne, enfants compris."
+        ]
+      },
+      {
+        "h": "Supprimer vos données",
+        "p": [
+          "<b>Réglages › Supprimer les données</b> efface toutes les sessions et toutes les matières. Supprimer l’app efface tout ce qu’elle avait enregistré."
+        ]
+      },
+      {
+        "h": "Modifications",
+        "p": [
+          "Si cette politique change, le nouveau texte est publié sur cette page avec une nouvelle date."
+        ]
+      }
+    ]
+  }
+}

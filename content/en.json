@@ -1,0 +1,154 @@
+{
+  "locale": "en-US",
+  "html_lang": "en",
+  "label": "English",
+  "app": "Pomodoro",
+  "nav": {"help": "Help", "privacy": "Privacy", "languages": "Other languages"},
+  "suggest": "This page is also in English",
+  "contact": {
+    "h": "Contact",
+    "p": "Questions, a bug or an idea: write to {email}. Mentioning your device and iOS version helps."
+  },
+  "help": {
+    "title": "Pomodoro help",
+    "lede": "Pomodoro is a study timer that counts down to an exam. Give a subject its exam day and the hours it needs, and every day the app shows how many rounds are due today. This page explains how it works on iPhone and iPad.",
+    "sections": [
+      {
+        "h": "Plan an exam",
+        "p": [
+          "On the timer screen, today's sheet asks <b>Studying for an exam?</b> Tap <b>Plan an exam</b>. The same item is at the bottom of the subject menu above the dial.",
+          "Pick a subject or type a new one, choose the <b>Exam day</b> (tomorrow at the earliest) and set <b>Study before the exam</b>, from 1 to 300 hours. Under <b>Each day</b> the planner shows what that asks of one day, in minutes and in rounds of your focus length.",
+          "Tap <b>Save</b>. Today's sheet now lists the subject with an outlined box for every round still to do today. Each finished round fills a box."
+        ]
+      },
+      {
+        "h": "How the days share the hours",
+        "p": [
+          "Today's share is worked out when the day starts and stays fixed until midnight: studying fills it, it does not shrink as you go.",
+          "A day that falls short is not lost. Its missing time is spread over the days left before the exam. A day studied beyond its share works the other way: the days after it ask for less.",
+          "Study counts from the day the plan starts. Changing only the hours keeps what you have already studied; a new exam day starts the count again from today.",
+          "On the exam day the plan is over and the subject leaves today's plan. Its minutes stay in Statistics.",
+          "A subject with no exam can have a weekly plan instead: <b>Settings › Subjects</b>, open the subject and turn on <b>Plan the week</b>. What the week still lacks is shared over the days left in the week.",
+          "<b>Up next</b> names the planned subject with the most time left today. <b>Choose</b> puts it on the dial."
+        ]
+      },
+      {
+        "h": "The dial and the rounds",
+        "p": [
+          "Drag the handle at the edge of the red wedge round the dial to set the focus length: 5 to 60 minutes, in steps of five. <b>Settings › Lengths</b> allows up to 120 minutes and sets the breaks and how many rounds come before a long break. Two presets are there: 25 · 5 · 15 and 50 · 10 · 20.",
+          "<b>Start</b> runs a focus round. A short break follows, and a long break after every fourth round unless you change it. <b>Start breaks automatically</b> in Settings can be turned off.",
+          "The check mark beside <b>Pause</b> ends a round early; a round of a minute or more is kept. The circular arrow resets the round.",
+          "For open-ended study, choose <b>Stopwatch</b> at the top of the screen. It counts up until you finish."
+        ]
+      },
+      {
+        "h": "Statistics",
+        "p": [
+          "The button at the top right opens <b>Statistics</b>: this week by subject, one square for every 25 minutes, and the list of sessions. On an iPad the week also lies beside the dial.",
+          "<b>Add a session by hand</b> records study done without the timer. Tap a session to change its subject, start time or length, or to remove it; <b>Undo</b> brings a removed session back.",
+          "Today's sheet shows today's total and your day streak, the number of days in a row with study."
+        ]
+      },
+      {
+        "h": "On the Lock Screen",
+        "p": [
+          "A running round shows on the Lock Screen and in the Dynamic Island on iPhones that have one. Its key pauses the round or goes on with it. <b>Settings › Timer on the Lock Screen</b> turns this off.",
+          "The first time a timer starts, iOS asks whether Pomodoro may send notifications. They are the bell at the end of a round and at the end of the break after it. If you say no, the bell rings only while the app is open."
+        ]
+      }
+    ],
+    "faq_h": "Questions",
+    "faq": [
+      {
+        "q": "Does Pomodoro block other apps?",
+        "a": "No. During a focus round it counts how often you leave the app, and each time becomes a short stroke over that round's box. It blocks, locks and hides nothing, and it reads no usage data."
+      },
+      {
+        "q": "Does the timer keep going when I close the app?",
+        "a": "Yes. The time is worked out from when the round started, so it is right when you come back."
+      },
+      {
+        "q": "The bell did not ring",
+        "a": "The bell is a notification. If notifications are off for Pomodoro, the timer screen says so and offers <b>Turn on alerts in Settings</b>. The sound follows the silent switch; <b>Settings › Bell at the end</b> turns the sound off."
+      },
+      {
+        "q": "What is free, and what does Pro add?",
+        "a": "Free: the timer and the stopwatch, every length, the bell, the Lock Screen timer, three subjects with their exam plans and weekly plans, today's sheet, this week and last week, and writing, correcting and removing sessions. Pomodoro Pro is a single in-app purchase, not a subscription. It adds unlimited subjects, a daily goal, every earlier week, 30 days and 12 months, time by subject and a spreadsheet (CSV) of every session."
+      },
+      {
+        "q": "I bought Pro, but it is locked on this device",
+        "a": "Open Settings (top left on the timer screen) and tap <b>Restore Purchase</b>, signed in with the Apple Account you bought it with. The Pomodoro Pro sheet has the same button."
+      },
+      {
+        "q": "Can I get a refund?",
+        "a": "Refunds are handled by Apple at <a href=\"https://reportaproblem.apple.com\">reportaproblem.apple.com</a>."
+      },
+      {
+        "q": "How do I change the language?",
+        "a": "<b>Settings › Language</b> opens the iOS settings for Pomodoro, where the app's language can be chosen."
+      },
+      {
+        "q": "How do I delete everything?",
+        "a": "<b>Settings › Delete all data</b> removes every session and subject from this device. Deleting the app does the same."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Pomodoro privacy policy",
+    "updated": "Last updated 26 November 2026",
+    "lede": "Pomodoro collects no data. There is no account, no advertising, no analytics and no tracking.",
+    "sections": [
+      {
+        "h": "What stays on your device",
+        "p": [
+          "Your subjects, plans, exam days, sessions and settings are kept in one file in the app's own storage on your iPhone or iPad. A few small preferences, such as whether Pro was bought, sit in the app's settings storage. None of this is sent to the developer or to anyone else.",
+          "Like other app data, this file is part of your device's backup if you back up the device."
+        ]
+      },
+      {
+        "h": "The one connection",
+        "p": [
+          "The only connection the app makes is to Apple's App Store (StoreKit): to show the price of Pomodoro Pro, to buy it and to restore it. Apple handles the payment; the developer receives no payment details.",
+          "Now and then iOS may show Apple's own prompt to rate the app. It comes from iOS, and the app learns nothing about your answer."
+        ]
+      },
+      {
+        "h": "Notifications and the Lock Screen",
+        "p": [
+          "The bells are local notifications, set on the device when a timer starts. No server sends them.",
+          "The timer on the Lock Screen and in the Dynamic Island is updated by the app on the device. It uses no push token."
+        ]
+      },
+      {
+        "h": "Counting time away",
+        "p": [
+          "During a focus round the app counts how often it was sent to the background. That is all it knows: it does not see which app you opened, it reads no usage data, and it uses neither Screen Time nor Family Controls."
+        ]
+      },
+      {
+        "h": "Spreadsheet export",
+        "p": [
+          "With Pro, Statistics can share your sessions as a CSV file. You choose where it goes; the app sends nothing by itself."
+        ]
+      },
+      {
+        "h": "Children",
+        "p": [
+          "Pomodoro collects nothing from anyone, children included."
+        ]
+      },
+      {
+        "h": "Deleting your data",
+        "p": [
+          "<b>Settings › Delete all data</b> removes every session and subject. Deleting the app removes everything it stored."
+        ]
+      },
+      {
+        "h": "Changes",
+        "p": [
+          "If this policy changes, the new text is posted on this page with a new date."
+        ]
+      }
+    ]
+  }
+}

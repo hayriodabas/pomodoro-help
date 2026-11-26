@@ -1,0 +1,154 @@
+{
+  "locale": "tr",
+  "html_lang": "tr",
+  "label": "Türkçe",
+  "app": "Pomodoro",
+  "nav": {"help": "Yardım", "privacy": "Gizlilik", "languages": "Diğer diller"},
+  "suggest": "Bu sayfanın Türkçesi var",
+  "contact": {
+    "h": "İletişim",
+    "p": "Soru, hata ya da öneri için {email} adresine yazabilirsin. Cihazını ve iOS sürümünü yazarsan işimiz kolaylaşır."
+  },
+  "help": {
+    "title": "Pomodoro yardım",
+    "lede": "Pomodoro, sınava göre geri sayan bir ders çalışma sayacı. Bir derse sınav gününü ve gereken saati verirsin; uygulama her gün o gün kaç tur çalışman gerektiğini gösterir. Bu sayfa iPhone ve iPad'de nasıl çalıştığını anlatıyor.",
+    "sections": [
+      {
+        "h": "Sınav planla",
+        "p": [
+          "Zamanlayıcı ekranında bugün sayfası <b>Bir sınava mı çalışıyorsun?</b> diye sorar. <b>Sınav planla</b>'ya dokun. Aynı seçenek kadranın üstündeki ders menüsünün en altında da var.",
+          "Bir ders seç ya da yenisini yaz, <b>Sınav günü</b>'nü seç (en erken yarın) ve <b>Sınava kadar çalışma</b> süresini 1 ile 300 saat arasında ayarla. <b>Her gün</b> satırı bunun tek bir güne düşen payını dakika olarak ve odak süren kadar turlarla gösterir.",
+          "<b>Kaydet</b>'e dokun. Bugün sayfasında ders, bugün yapılacak her tur için boş bir kutuyla görünür. Biten her tur bir kutuyu doldurur."
+        ]
+      },
+      {
+        "h": "Saatler günlere nasıl bölünür",
+        "p": [
+          "Bugünün payı gün başlarken hesaplanır ve gece yarısına kadar değişmez: çalıştıkça dolar, sen çalıştıkça küçülmez.",
+          "Eksik kalan bir gün kaybolmaz; o günün eksiği sınava kadar kalan günlere dağılır. Payından fazla çalıştığın gün ters yönde işler: sonraki günler daha az ister.",
+          "Çalışma, planın başladığı günden itibaren sayılır. Yalnızca saati değiştirirsen o ana kadar çalıştıkların korunur; yeni bir sınav günü seçersen sayım bugünden yeniden başlar.",
+          "Sınav günü gelince plan biter ve ders bugünün planından çıkar. Dakikaları İstatistikler'de kalır.",
+          "Sınavı olmayan bir derse haftalık plan da verebilirsin: <b>Ayarlar › Dersler</b>, dersi aç ve <b>Haftayı planla</b>'yı aç. Haftanın eksiği haftanın kalan günlerine bölünür.",
+          "<b>Sıradaki</b>, bugün en çok süresi kalan planlı dersi gösterir. <b>Seç</b>'e dokununca o ders kadrana gelir."
+        ]
+      },
+      {
+        "h": "Kadran ve turlar",
+        "p": [
+          "Odak süresini ayarlamak için kırmızı dilimin ucundaki tutamacı kadranın çevresinde sürükle: 5 ile 60 dakika arası, beşer beşer. <b>Ayarlar › Süreler</b> 120 dakikaya kadar çıkar; molaları ve uzun moladan önceki tur sayısını da buradan ayarlarsın. İki hazır ayar var: 25 · 5 · 15 ve 50 · 10 · 20.",
+          "<b>Başlat</b> bir odak turu başlatır. Ardından kısa bir mola gelir; sen değiştirmedikçe her dördüncü turdan sonra uzun mola. Ayarlar'daki <b>Molaları otomatik başlat</b> kapatılabilir.",
+          "<b>Duraklat</b>'ın yanındaki onay işareti turu erken bitirir; bir dakika ve üstü tur kayda geçer. Dairesel ok turu sıfırlar.",
+          "Süresi belli olmayan çalışma için ekranın üstünden <b>Kronometre</b>'yi seç. Bitirene kadar ileri sayar."
+        ]
+      },
+      {
+        "h": "İstatistikler",
+        "p": [
+          "Sağ üstteki düğme <b>İstatistikler</b>'i açar: bu haftanın derse göre dökümü (her 25 dakika bir kare) ve oturum listesi. iPad'de hafta kadranın yanında da durur.",
+          "<b>Elle oturum ekle</b>, zamanlayıcı çalışmadan yaptığın çalışmayı kaydeder. Bir oturuma dokunarak dersini, başlangıcını ya da süresini değiştirebilir veya silebilirsin; <b>Geri al</b> silineni geri getirir.",
+          "Bugün sayfası bugünkü toplamı ve gün serini, yani art arda çalıştığın gün sayısını gösterir."
+        ]
+      },
+      {
+        "h": "Kilit ekranında",
+        "p": [
+          "Süren tur kilit ekranında ve Dynamic Island olan iPhone'larda orada görünür. Oradaki düğme turu duraklatır ya da devam ettirir. <b>Ayarlar › Kilit ekranında zamanlayıcı</b> bunu kapatır.",
+          "Bir zamanlayıcı ilk kez başladığında iOS, Pomodoro'nun bildirim gönderip gönderemeyeceğini sorar. Bildirimler, turun sonundaki ve ardından gelen molanın sonundaki zildir. Hayır dersen zil yalnızca uygulama açıkken çalar."
+        ]
+      }
+    ],
+    "faq_h": "Sorular",
+    "faq": [
+      {
+        "q": "Pomodoro diğer uygulamaları engelliyor mu?",
+        "a": "Hayır. Odak turu sırasında uygulamadan kaç kez çıktığını sayar; her çıkış o turun kutusunun üstünde kısa bir çizgi olur. Hiçbir şeyi engellemez, kilitlemez ya da gizlemez; kullanım verisi okumaz."
+      },
+      {
+        "q": "Uygulamayı kapatınca sayaç durur mu?",
+        "a": "Durmaz. Süre turun başladığı andan hesaplanır, geri döndüğünde doğru kalır."
+      },
+      {
+        "q": "Zil çalmadı",
+        "a": "Zil bir bildirimdir. Pomodoro için bildirimler kapalıysa zamanlayıcı ekranı bunu söyler ve <b>Ayarlar'dan bildirimleri aç</b> seçeneğini sunar. Ses sessiz moda uyar; <b>Ayarlar › Bitişte zil</b> sesi kapatır."
+      },
+      {
+        "q": "Neler ücretsiz, Pro neler ekliyor?",
+        "a": "Ücretsiz: zamanlayıcı ve kronometre, tüm süreler, zil, kilit ekranındaki zamanlayıcı, sınav ve haftalık planlarıyla üç ders, bugün sayfası, bu hafta ve geçen hafta, oturum ekleme, düzeltme ve silme. Pomodoro Pro abonelik değil, tek seferlik bir uygulama içi satın alımdır. Sınırsız ders, günlük hedef, önceki bütün haftalar, 30 gün ve 12 ay, derse göre süre ve tüm oturumların tablosunu (CSV) ekler."
+      },
+      {
+        "q": "Pro'yu aldım ama bu cihazda kilitli",
+        "a": "Ayarlar'ı aç (zamanlayıcı ekranında sol üstte) ve satın aldığın Apple Hesabı ile giriş yapmışken <b>Satın almayı geri yükle</b>'ye dokun. Pomodoro Pro sayfasında da aynı düğme var."
+      },
+      {
+        "q": "Para iadesi alabilir miyim?",
+        "a": "İadeleri Apple yürütür: <a href=\"https://reportaproblem.apple.com\">reportaproblem.apple.com</a>."
+      },
+      {
+        "q": "Dili nasıl değiştiririm?",
+        "a": "<b>Ayarlar › Dil</b>, iOS ayarlarında Pomodoro'nun sayfasını açar; uygulamanın dilini oradan seçebilirsin."
+      },
+      {
+        "q": "Her şeyi nasıl silerim?",
+        "a": "<b>Ayarlar › Tüm verileri sil</b> bu cihazdaki bütün oturumları ve dersleri siler. Uygulamayı silmek de aynı sonucu verir."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Pomodoro gizlilik politikası",
+    "updated": "Son güncelleme: 26 Kasım 2026",
+    "lede": "Pomodoro veri toplamaz. Hesap, reklam, analitik ya da izleme yoktur.",
+    "sections": [
+      {
+        "h": "Cihazında kalanlar",
+        "p": [
+          "Derslerin, planların, sınav günlerin, oturumların ve ayarların iPhone ya da iPad'inde uygulamanın kendi alanındaki tek bir dosyada tutulur. Pro'nun alınıp alınmadığı gibi birkaç küçük tercih de uygulamanın ayar deposunda durur. Bunların hiçbiri geliştiriciye ya da başka birine gönderilmez.",
+          "Diğer uygulama verileri gibi bu dosya da cihazını yedeklersen yedeğin içinde yer alır."
+        ]
+      },
+      {
+        "h": "Tek bağlantı",
+        "p": [
+          "Uygulamanın kurduğu tek bağlantı Apple'ın App Store'unadır (StoreKit): Pomodoro Pro'nun fiyatını göstermek, satın almak ve geri yüklemek için. Ödemeyi Apple yürütür; geliştiriciye hiçbir ödeme bilgisi gelmez.",
+          "iOS zaman zaman Apple'ın kendi puanlama penceresini gösterebilir. Bu pencere iOS'tan gelir; uygulama verdiğin yanıtı öğrenmez."
+        ]
+      },
+      {
+        "h": "Bildirimler ve kilit ekranı",
+        "p": [
+          "Ziller yerel bildirimlerdir; zamanlayıcı başlarken cihazda kurulur. Onları gönderen bir sunucu yoktur.",
+          "Kilit ekranındaki ve Dynamic Island'daki zamanlayıcıyı uygulama cihazın üzerinde günceller. Anlık bildirim (push) belirteci kullanılmaz."
+        ]
+      },
+      {
+        "h": "Uygulamadan çıkışların sayılması",
+        "p": [
+          "Odak turu sırasında uygulama, kaç kez arka plana gönderildiğini sayar. Bildiği yalnızca budur: hangi uygulamayı açtığını görmez, kullanım verisi okumaz, Ekran Süresi'ni ya da Aile Denetimleri'ni kullanmaz."
+        ]
+      },
+      {
+        "h": "Tablo dışa aktarma",
+        "p": [
+          "Pro ile İstatistikler oturumlarını CSV dosyası olarak paylaşabilir. Dosyanın nereye gideceğini sen seçersin; uygulama kendiliğinden hiçbir şey göndermez."
+        ]
+      },
+      {
+        "h": "Çocuklar",
+        "p": [
+          "Pomodoro, çocuklar dahil kimseden hiçbir şey toplamaz."
+        ]
+      },
+      {
+        "h": "Verilerini silmek",
+        "p": [
+          "<b>Ayarlar › Tüm verileri sil</b> bütün oturumları ve dersleri siler. Uygulamayı silmek, uygulamanın sakladığı her şeyi kaldırır."
+        ]
+      },
+      {
+        "h": "Değişiklikler",
+        "p": [
+          "Bu politika değişirse yeni metin bu sayfada yeni bir tarihle yayımlanır."
+        ]
+      }
+    ]
+  }
+}

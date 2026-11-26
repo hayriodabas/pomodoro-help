@@ -1,0 +1,158 @@
+{
+  "locale": "it",
+  "html_lang": "it",
+  "label": "Italiano",
+  "app": "Pomodoro",
+  "nav": {
+    "help": "Guida",
+    "privacy": "Privacy",
+    "languages": "Altre lingue"
+  },
+  "suggest": "Questa pagina c’è anche in italiano",
+  "contact": {
+    "h": "Contatti",
+    "p": "Una domanda, un bug o un’idea: scrivi a {email}. Se indichi il dispositivo e la versione di iOS ci aiuti molto."
+  },
+  "help": {
+    "title": "Guida di Pomodoro",
+    "lede": "Pomodoro è un timer di studio che fa il conto alla rovescia fino a un esame. Dai a una materia il giorno dell’esame e le ore che servono, e ogni giorno l’app ti mostra quanti giri devi fare oggi. Questa pagina spiega come funziona su iPhone e iPad.",
+    "sections": [
+      {
+        "h": "Pianificare un esame",
+        "p": [
+          "Nella schermata del timer, il foglio di oggi chiede: <b>Stai preparando un esame?</b> Tocca <b>Pianifica un esame</b>. La stessa voce si trova anche in fondo al menu delle materie, sopra il quadrante.",
+          "Scegli una materia o scrivine una nuova, imposta il <b>Giorno dell’esame</b> (domani al più presto) e regola <b>Studio prima dell’esame</b>, da 1 a 300 ore. Sotto <b>Ogni giorno</b> il pianificatore mostra cosa significa per una sola giornata, in minuti e in giri della tua durata di concentrazione.",
+          "Tocca <b>Salva</b>. Il foglio di oggi mostra ora la materia, con una casella vuota per ogni giro ancora da fare oggi. Ogni giro completato riempie una casella."
+        ]
+      },
+      {
+        "h": "Come i giorni si dividono le ore",
+        "p": [
+          "La quota di oggi viene calcolata all’inizio della giornata e resta fissa fino a mezzanotte: studiare la riempie, non si riduce man mano che studi.",
+          "Un giorno che resta indietro non va perso. Il tempo mancante viene distribuito sui giorni che restano prima dell’esame. Un giorno in cui studi più della tua quota funziona al contrario: i giorni successivi ne chiedono meno.",
+          "Lo studio conta dal giorno in cui il piano inizia. Se cambi solo le ore, quello che hai già studiato viene mantenuto; un nuovo giorno dell’esame fa ripartire il conteggio da oggi.",
+          "Il giorno dell’esame il piano finisce e la materia esce dal piano di oggi. I suoi minuti restano nelle Statistiche.",
+          "Una materia senza esame può avere invece un piano settimanale: <b>Impostazioni › Materie</b>, apri la materia e attiva <b>Pianifica la settimana</b>. Ciò che alla settimana manca ancora viene distribuito sui giorni che restano della settimana.",
+          "<b>Prossima</b> indica la materia pianificata con più tempo ancora da fare oggi. <b>Scegli</b> la mette sul quadrante."
+        ]
+      },
+      {
+        "h": "Il quadrante e i giri",
+        "p": [
+          "Trascina la maniglia sul bordo del settore rosso intorno al quadrante per impostare la durata di concentrazione: da 5 a 60 minuti, a passi di cinque. <b>Impostazioni › Durate</b> permette fino a 120 minuti e regola le pause e quanti giri vengono prima di una pausa lunga. Ci sono due preimpostazioni: 25 · 5 · 15 e 50 · 10 · 20.",
+          "<b>Avvia</b> fa partire un giro di concentrazione. Segue una pausa breve, e una pausa lunga dopo ogni quarto giro, a meno che tu non cambi l’impostazione. <b>Avvia le pause automaticamente</b> si può disattivare in Impostazioni.",
+          "Il segno di spunta accanto a <b>Pausa</b> chiude un giro in anticipo; un giro di un minuto o più viene conservato. La freccia circolare azzera il giro.",
+          "Per studiare senza una durata fissa, scegli <b>Cronometro</b> in alto nella schermata. Conta in avanti finché non hai finito."
+        ]
+      },
+      {
+        "h": "Statistiche",
+        "p": [
+          "Il pulsante in alto a destra apre le <b>Statistiche</b>: questa settimana per materia, un quadratino ogni 25 minuti, e l’elenco delle sessioni. Su iPad la settimana compare anche accanto al quadrante.",
+          "<b>Aggiungi una sessione a mano</b> registra lo studio fatto senza il timer. Tocca una sessione per cambiarne la materia, l’ora di inizio o la durata, oppure per rimuoverla; <b>Annulla</b> riporta indietro una sessione rimossa.",
+          "Il foglio di oggi mostra il totale di oggi e la tua serie di giorni, cioè il numero di giorni di fila con dello studio."
+        ]
+      },
+      {
+        "h": "Nella schermata di blocco",
+        "p": [
+          "Un giro in corso compare nella schermata di blocco e, sugli iPhone che ce l’hanno, nella Dynamic Island. Il suo tasto mette in pausa il giro o lo riprende. <b>Impostazioni › Timer nella schermata di blocco</b> lo disattiva.",
+          "La prima volta che un timer parte, iOS chiede se Pomodoro può inviare notifiche. Sono la campanella alla fine di un giro e alla fine della pausa che segue. Se rispondi di no, la campanella suona solo mentre l’app è aperta."
+        ]
+      }
+    ],
+    "faq_h": "Domande",
+    "faq": [
+      {
+        "q": "Pomodoro blocca altre app?",
+        "a": "No. Durante un giro di concentrazione conta quante volte esci dall’app, e ogni volta diventa un breve trattino sulla casella di quel giro. Non blocca, non limita e non nasconde nulla, e non legge alcun dato di utilizzo."
+      },
+      {
+        "q": "Il timer continua se chiudo l’app?",
+        "a": "Sì. Il tempo viene calcolato da quando è iniziato il giro, quindi è giusto quando torni."
+      },
+      {
+        "q": "La campanella non ha suonato",
+        "a": "La campanella è una notifica. Se le notifiche sono disattivate per Pomodoro, la schermata del timer lo dice e propone <b>Attiva le notifiche in Impostazioni</b>. Il suono segue il tasto del silenzioso; <b>Impostazioni › Campanella alla fine</b> disattiva il suono."
+      },
+      {
+        "q": "Cosa è gratis e cosa aggiunge Pro?",
+        "a": "Gratis: il timer e il cronometro, tutte le durate, la campanella, il timer nella schermata di blocco, tre materie con i loro piani d’esame e piani settimanali, il foglio di oggi, questa settimana e la scorsa, e scrivere, correggere e rimuovere sessioni. Pomodoro Pro è un unico acquisto in-app, non un abbonamento. Aggiunge materie illimitate, un obiettivo giornaliero, tutte le settimane precedenti, 30 giorni e 12 mesi, il tempo per materia e un foglio di calcolo (CSV) con tutte le sessioni."
+      },
+      {
+        "q": "Ho comprato Pro, ma su questo dispositivo è bloccato",
+        "a": "Apri Impostazioni (in alto a sinistra nella schermata del timer) e tocca <b>Ripristina acquisto</b>, accedendo con l’Apple Account con cui hai acquistato. Il foglio di Pomodoro Pro ha lo stesso pulsante."
+      },
+      {
+        "q": "Posso avere un rimborso?",
+        "a": "I rimborsi sono gestiti da Apple su <a href=\"https://reportaproblem.apple.com\">reportaproblem.apple.com</a>."
+      },
+      {
+        "q": "Come cambio la lingua?",
+        "a": "<b>Impostazioni › Lingua</b> apre le impostazioni di iOS per Pomodoro, dove si può scegliere la lingua dell’app."
+      },
+      {
+        "q": "Come elimino tutto?",
+        "a": "<b>Impostazioni › Elimina tutti i dati</b> rimuove ogni sessione e ogni materia da questo dispositivo. Eliminare l’app ha lo stesso effetto."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Informativa sulla privacy di Pomodoro",
+    "updated": "Ultimo aggiornamento: 26 novembre 2026",
+    "lede": "Pomodoro non raccoglie dati. Non c’è nessun account, nessuna pubblicità, nessuna analisi e nessun tracciamento.",
+    "sections": [
+      {
+        "h": "Cosa resta sul tuo dispositivo",
+        "p": [
+          "Le tue materie, i piani, i giorni degli esami, le sessioni e le impostazioni sono conservati in un unico file, nell’archivio dell’app sul tuo iPhone o iPad. Poche piccole preferenze, come il fatto che Pro sia stato acquistato, si trovano nell’archivio delle impostazioni dell’app. Nulla di tutto questo viene inviato allo sviluppatore né a nessun altro.",
+          "Come gli altri dati delle app, questo file fa parte del backup del dispositivo, se ne fai uno."
+        ]
+      },
+      {
+        "h": "L’unica connessione",
+        "p": [
+          "L’unica connessione che l’app stabilisce è con l’App Store di Apple (StoreKit): per mostrare il prezzo di Pomodoro Pro, acquistarlo e ripristinarlo. Il pagamento lo gestisce Apple; lo sviluppatore non riceve alcun dato di pagamento.",
+          "Di tanto in tanto iOS può mostrare la richiesta di valutazione propria di Apple. Arriva da iOS, e l’app non sa nulla della tua risposta."
+        ]
+      },
+      {
+        "h": "Notifiche e schermata di blocco",
+        "p": [
+          "Le campanelle sono notifiche locali, impostate sul dispositivo quando parte un timer. Nessun server le invia.",
+          "Il timer nella schermata di blocco e nella Dynamic Island viene aggiornato dall’app sul dispositivo. Non usa alcun token push."
+        ]
+      },
+      {
+        "h": "Contare il tempo fuori dall’app",
+        "p": [
+          "Durante un giro di concentrazione l’app conta quante volte è stata mandata in background. È tutto ciò che sa: non vede quale app hai aperto, non legge dati di utilizzo e non usa né Tempo di utilizzo né Family Controls."
+        ]
+      },
+      {
+        "h": "Esportazione in foglio di calcolo",
+        "p": [
+          "Con Pro, le Statistiche possono condividere le tue sessioni come file CSV. Scegli tu dove va; l’app non invia nulla da sola."
+        ]
+      },
+      {
+        "h": "Minori",
+        "p": [
+          "Pomodoro non raccoglie nulla da nessuno, minori compresi."
+        ]
+      },
+      {
+        "h": "Eliminare i tuoi dati",
+        "p": [
+          "<b>Impostazioni › Elimina tutti i dati</b> rimuove ogni sessione e ogni materia. Eliminare l’app rimuove tutto ciò che aveva salvato."
+        ]
+      },
+      {
+        "h": "Modifiche",
+        "p": [
+          "Se questa informativa cambia, il nuovo testo viene pubblicato in questa pagina con una nuova data."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "locale": "nl-NL",
+  "html_lang": "nl",
+  "label": "Nederlands",
+  "app": "Pomodoro",
+  "nav": {"help": "Help", "privacy": "Privacy", "languages": "Andere talen"},
+  "suggest": "Deze pagina is er ook in het Nederlands",
+  "contact": {
+    "h": "Contact",
+    "p": "Een vraag, een bug of een idee? Schrijf naar {email}. Het helpt als je je toestel en iOS-versie erbij zet."
+  },
+  "help": {
+    "title": "Pomodoro-help",
+    "lede": "Pomodoro is een studietimer die aftelt naar een toets. Geef een vak een toetsdag en het aantal uren dat je nodig hebt, en de app laat elke dag zien hoeveel rondes er vandaag op het programma staan. Op deze pagina lees je hoe het werkt op iPhone en iPad.",
+    "sections": [
+      {
+        "h": "Een toets plannen",
+        "p": [
+          "Op het timerscherm vraagt het blad van vandaag: <b>Studeer je voor een toets?</b> Tik op <b>Toets plannen</b>. Dezelfde optie staat onderaan het vakkenmenu boven de wijzerplaat.",
+          "Kies een vak of typ een nieuw vak, kies de <b>Toetsdag</b> (uiterlijk morgen) en stel <b>Studie vóór de toets</b> in, van 1 tot 300 uur. Onder <b>Per dag</b> zie je wat dat per dag vraagt, in minuten en in rondes van jouw focuslengte.",
+          "Tik op <b>Bewaar</b>. Het blad van vandaag toont het vak nu met een leeg vakje voor elke ronde die je vandaag nog moet doen. Elke afgeronde ronde vult een vakje."
+        ]
+      },
+      {
+        "h": "Hoe de uren over de dagen worden verdeeld",
+        "p": [
+          "Het aandeel van vandaag wordt berekend aan het begin van de dag en blijft tot middernacht gelijk: als je studeert, loopt het vol. Het wordt niet kleiner naarmate je vordert.",
+          "Een dag waarop je te kort komt, is niet verloren. De ontbrekende tijd wordt verdeeld over de dagen die nog voor de toets over zijn. Studeer je op een dag meer dan je aandeel, dan werkt het andersom: de dagen erna vragen minder.",
+          "Studietijd telt vanaf de dag dat het plan begint. Als je alleen de uren aanpast, blijft wat je al gestudeerd hebt behouden; bij een nieuwe toetsdag begint het tellen weer vanaf vandaag.",
+          "Op de toetsdag is het plan afgelopen en verdwijnt het vak uit het plan van vandaag. De minuten blijven bewaard in Statistieken.",
+          "Een vak zonder toets kan in plaats daarvan een weekplan krijgen: <b>Instellingen › Vakken</b>, open het vak en zet <b>Week plannen</b> aan. Wat er in de week nog ontbreekt, wordt verdeeld over de dagen die nog over zijn.",
+          "<b>Hierna</b> noemt het geplande vak waar vandaag nog de meeste tijd voor nodig is. Met <b>Kies</b> zet je het op de wijzerplaat."
+        ]
+      },
+      {
+        "h": "De wijzerplaat en de rondes",
+        "p": [
+          "Sleep de greep aan de rand van het rode taartpunt rond de wijzerplaat om de focuslengte in te stellen: 5 tot 60 minuten, in stappen van vijf. Bij <b>Instellingen › Tijden</b> kan het tot 120 minuten, en daar stel je ook de pauzes in en na hoeveel rondes een lange pauze komt. Er zijn twee voorinstellingen: 25 · 5 · 15 en 50 · 10 · 20.",
+          "<b>Start</b> begint een focusronde. Daarna volgt een korte pauze, en na elke vierde ronde een lange pauze, tenzij je dat aanpast. <b>Pauzes automatisch starten</b> kun je in Instellingen uitzetten.",
+          "Het vinkje naast <b>Pauzeer</b> beëindigt een ronde eerder; een ronde van een minuut of langer wordt bewaard. Met de cirkelvormige pijl zet je de ronde terug.",
+          "Voor studeren zonder vaste tijd kies je bovenaan het scherm <b>Stopwatch</b>. Die telt op tot je klaar bent."
+        ]
+      },
+      {
+        "h": "Statistieken",
+        "p": [
+          "De knop rechtsboven opent <b>Statistieken</b>: deze week per vak, één vierkantje per 25 minuten, en de lijst met sessies. Op een iPad staat de week ook naast de wijzerplaat.",
+          "Met <b>Sessie met de hand toevoegen</b> leg je studietijd vast die je zonder de timer hebt gedaan. Tik op een sessie om het vak, de starttijd of de lengte te wijzigen, of om de sessie te verwijderen; met <b>Herstel</b> haal je een verwijderde sessie terug.",
+          "Het blad van vandaag toont het totaal van vandaag en je Dagenreeks: het aantal dagen achter elkaar waarop je hebt gestudeerd."
+        ]
+      },
+      {
+        "h": "Op het toegangsscherm",
+        "p": [
+          "Een lopende ronde staat op het toegangsscherm en, op iPhones die er een hebben, in het Dynamic Island. Met de knop daar zet je de ronde op pauze of ga je verder. Met <b>Instellingen › Timer op het toegangsscherm</b> zet je dit uit.",
+          "Zodra een timer voor het eerst start, vraagt iOS of Pomodoro meldingen mag sturen. Dat zijn de bel aan het einde van een ronde en aan het einde van de pauze erna. Zeg je nee, dan gaat de bel alleen af zolang de app open is."
+        ]
+      }
+    ],
+    "faq_h": "Vragen",
+    "faq": [
+      {
+        "q": "Blokkeert Pomodoro andere apps?",
+        "a": "Nee. Tijdens een focusronde telt de app hoe vaak je de app verlaat, en elke keer wordt een korte streep over het vakje van die ronde. Er wordt niets geblokkeerd, vergrendeld of verborgen, en de app leest geen gebruiksgegevens."
+      },
+      {
+        "q": "Loopt de timer door als ik de app sluit?",
+        "a": "Ja. De tijd wordt berekend vanaf het moment waarop de ronde begon, dus als je terugkomt klopt hij."
+      },
+      {
+        "q": "De bel ging niet af",
+        "a": "De bel is een melding. Als meldingen voor Pomodoro uit staan, zegt het timerscherm dat en biedt het <b>Meldingen aanzetten in Instellingen</b> aan. Het geluid volgt de stilteschakelaar; met <b>Instellingen › Bel aan het einde</b> zet je het geluid uit."
+      },
+      {
+        "q": "Wat is gratis en wat voegt Pro toe?",
+        "a": "Gratis: de timer en de stopwatch, alle lengtes, de bel, de timer op het toegangsscherm, drie vakken met hun toetsplannen en weekplannen, het blad van vandaag, deze week en vorige week, en het invoeren, corrigeren en verwijderen van sessies. Pomodoro Pro is een eenmalige aankoop in de app, geen abonnement. Het voegt onbeperkt veel vakken toe, een dagdoel, alle eerdere weken, 30 dagen en 12 maanden, tijd per vak en een spreadsheet (CSV) met alle sessies."
+      },
+      {
+        "q": "Ik heb Pro gekocht, maar het is vergrendeld op dit toestel",
+        "a": "Open Instellingen (linksboven op het timerscherm) en tik op <b>Aankoop herstellen</b>, ingelogd met de Apple Account waarmee je het hebt gekocht. Het Pomodoro Pro-blad heeft dezelfde knop."
+      },
+      {
+        "q": "Kan ik mijn geld terugkrijgen?",
+        "a": "Terugbetalingen worden door Apple afgehandeld via <a href=\"https://reportaproblem.apple.com\">reportaproblem.apple.com</a>."
+      },
+      {
+        "q": "Hoe verander ik de taal?",
+        "a": "<b>Instellingen › Taal</b> opent de iOS-instellingen van Pomodoro, waar je de taal van de app kunt kiezen."
+      },
+      {
+        "q": "Hoe wis ik alles?",
+        "a": "<b>Instellingen › Alle gegevens wissen</b> verwijdert alle sessies en vakken van dit toestel. Als je de app verwijdert, gebeurt hetzelfde."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Privacybeleid van Pomodoro",
+    "updated": "Laatst bijgewerkt op 26 november 2026",
+    "lede": "Pomodoro verzamelt geen gegevens. Er is geen account, geen reclame, geen analyse en geen tracking.",
+    "sections": [
+      {
+        "h": "Wat op je toestel blijft",
+        "p": [
+          "Je vakken, plannen, toetsdagen, sessies en instellingen staan in één bestand in de eigen opslag van de app op je iPhone of iPad. Een paar kleine voorkeuren, zoals of Pro is gekocht, staan in de instellingenopslag van de app. Niets hiervan wordt naar de ontwikkelaar of naar iemand anders gestuurd.",
+          "Net als andere app-gegevens maakt dit bestand deel uit van de back-up van je toestel, als je een back-up maakt."
+        ]
+      },
+      {
+        "h": "De enige verbinding",
+        "p": [
+          "De enige verbinding die de app maakt, is met de App Store van Apple (StoreKit): om de prijs van Pomodoro Pro te tonen, om het te kopen en om de aankoop te herstellen. Apple regelt de betaling; de ontwikkelaar ontvangt geen betaalgegevens.",
+          "Af en toe kan iOS de eigen melding van Apple tonen om de app te beoordelen. Die komt van iOS en de app krijgt niets te weten over je antwoord."
+        ]
+      },
+      {
+        "h": "Meldingen en het toegangsscherm",
+        "p": [
+          "De bellen zijn lokale meldingen, die op het toestel worden ingesteld als een timer start. Geen enkele server stuurt ze.",
+          "De timer op het toegangsscherm en in het Dynamic Island wordt door de app op het toestel bijgewerkt. Er wordt geen pushtoken gebruikt."
+        ]
+      },
+      {
+        "h": "Tijd buiten de app tellen",
+        "p": [
+          "Tijdens een focusronde telt de app hoe vaak ze naar de achtergrond is gestuurd. Meer weet ze niet: ze ziet niet welke app je opent, leest geen gebruiksgegevens en gebruikt geen Schermtijd of Family Controls."
+        ]
+      },
+      {
+        "h": "Spreadsheet-export",
+        "p": [
+          "Met Pro kun je in Statistieken je sessies delen als CSV-bestand. Jij kiest waar het naartoe gaat; de app verstuurt zelf niets."
+        ]
+      },
+      {
+        "h": "Kinderen",
+        "p": [
+          "Pomodoro verzamelt niets van wie dan ook, kinderen inbegrepen."
+        ]
+      },
+      {
+        "h": "Je gegevens wissen",
+        "p": [
+          "<b>Instellingen › Alle gegevens wissen</b> verwijdert alle sessies en vakken. Als je de app verwijdert, verdwijnt alles wat ze heeft opgeslagen."
+        ]
+      },
+      {
+        "h": "Wijzigingen",
+        "p": [
+          "Als dit beleid verandert, wordt de nieuwe tekst met een nieuwe datum op deze pagina geplaatst."
+        ]
+      }
+    ]
+  }
+}
